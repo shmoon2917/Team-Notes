@@ -8,7 +8,7 @@
 
 ## Python 모듈 및 내장함수 참고
 
-[collections.Counter](https://excelsior-cjh.tistory.com/94)
+[collections.Counter](https://excelsior-cjh.tistory.com/94)  
 [eval(), exec()](https://nan491.tistory.com/entry/Python-3-eval-%ED%95%A8%EC%88%98%EC%99%80-exec-%ED%95%A8%EC%88%98)
 
 ## 알고리즘 참고 링크
