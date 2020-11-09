@@ -16,6 +16,8 @@
 
 [lstrip(), rstrip(), strip()](https://codechacha.com/ko/python-string-strip/)
 
+[heapq](https://www.daleseo.com/python-heapq/)
+
 ## 알고리즘 참고 링크
 
 [시간복잡도](https://www.notion.so/a3ba1c7dd40b489ab7ea89dc3a18503a)
