@@ -14,9 +14,17 @@
 
 [eval(), exec()](https://nan491.tistory.com/entry/Python-3-eval-%ED%95%A8%EC%88%98%EC%99%80-exec-%ED%95%A8%EC%88%98)
 
+[itertools](https://kimdoky.github.io/python/2019/11/24/python-itertools/)
+
+- permutations, combinations, chain(.from_iterable) 알아두기
+
 [lstrip(), rstrip(), strip()](https://codechacha.com/ko/python-string-strip/)
 
 [heapq](https://www.daleseo.com/python-heapq/)
+
+[any, all](http://egloos.zum.com/mcchae/v/11192451)
+
+[zip](https://medium.com/@hckcksrl/python-zip-%EB%82%B4%EC%9E%A5%ED%95%A8%EC%88%98-95ad2997990)
 
 ## 알고리즘 참고 링크
 
