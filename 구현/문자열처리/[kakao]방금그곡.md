@@ -36,7 +36,7 @@
 
 **입출력 예**
 
-|         m          |                           return                           | answer  |
+|         m          |                         musicinfos                         | answer  |
 | :----------------: | :--------------------------------------------------------: | :-----: |
 |     "ABCDEFG"      | ["12:00,12:14,HELLO,CDEFGAB", "13:00,13:05,WORLD,ABCDEF"]  | "HELLO" |
 | "CC#BCC#BCC#BCC#B" |  ["03:00,03:30,FOO,CC#B", "04:00,04:08,BAR,CC#BCC#BCC#B"]  |  "FOO"  |
