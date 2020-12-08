@@ -36,6 +36,8 @@
 
 ## 답안 풀이
 
+- N으로 만들 수 있는 경우의 수를 잘 고려
+
 ```python
 def solution(N, number):
     answer = -1

@@ -43,6 +43,8 @@
 
 ## 풀이
 
+- 참고: [2진수의 음수 표현](https://m.blog.naver.com/PostView.nhn?blogId=chgy2131&logNo=140186696889&proxyReferer=https:%2F%2Fwww.google.com%2F)
+
 ```python
 import sys
 input = sys.stdin.readline
