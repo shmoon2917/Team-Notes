@@ -33,26 +33,28 @@
 - 어렵게 풀려고 하지 말자! **코딩 테스트는 핵심 아이디어만 찾으면 길지 않은 코드로 풀 수 있게끔 만들어진다** (괜히 변수같은 거 추가해서 복잡도를 증가시키지 말자)
 
 ```python
-answer = 0
-def solution(n, computers):
-    global answer
-    visited = [False] * n
-    for i in range(n):
-        if not visited[i]:
-            dfs(computers, i, visited)
-            answer += 1
-
-    return answer
-
-def dfs(computers, start, visited):
+def dfs(computers, visited, start):
     if visited[start]:
         return
 
     visited[start] = True
 
-    for i in range(len(computers[0])):
-        if computers[start][i] == 1 and not visited[i]:
-            dfs(computers, i, visited)
+    for i, connected in enumerate(computers[start]):
+        if not visited[i] and connected:
+            dfs(computers, visited, i)
+
+
+def solution(n, computers):
+    answer = 0
+
+    visited = [False] * n
+
+    for i in range(n):
+        if not visited[i]:
+            dfs(computers, visited, i)
+            answer += 1
+
+    return answer
 ```
 
 ## 풀이2(DFS - 스택 이용)

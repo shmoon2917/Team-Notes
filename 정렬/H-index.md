@@ -27,14 +27,14 @@
 
 <br></br>
 
-## 풀이(11개의 테스트 케이스 중 10개 성공 - 1개 실패)
-
-- **문제 해석을 꼼꼼하게 잘해야 한다.** 이상하게 쉬우면 뭔가 이상한 게 맞다..
+## 풀이
 
 ```python
 def solution(citations):
-    for i in range(max(citations), -1, -1):
-        if sum(1 for j in citations if j >= i) >= i:
-            break
-    return i
+    citations = sorted(citations,reverse=True)
+
+    for i in range(len(citations)):
+        if citations[i] <= i:
+            return i
+    return len(citations)
 ```
